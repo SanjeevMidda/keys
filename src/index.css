@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key{
+  position: absolute;
+  width: 80px;
+  height: 300px;
+  border-radius: 20px 20px;
+  transform-origin: top;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes rotate{
+  from{transform: rotate(90deg);}
+  to{transform: rotate(-90deg);}
+}
+
+.circle{
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.742);
+  border-radius: 50%;
+  margin-top: 10px;
+}
